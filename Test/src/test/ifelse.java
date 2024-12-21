@@ -53,12 +53,12 @@ public class ifelse {
                 int thang = new Scanner(System.in).nextInt();
         switch (thang) {
             case 1, 3, 5, 7, 8, 10, 12 -> {
-                System.out.print("Thang "+thang);
-                System.out.println(" co 31 ngay");
+                System.out.println("Thang "+thang+" co 31 ngay");
+               
             }
             case 4, 6, 9, 11 -> {
-                System.out.print("Thang "+thang);
-                System.out.println(" co 30 ngay");
+                System.out.print("Thang "+thang+" co 30 ngay");
+               
             }
             case 2 -> {
                 System.out.println("Nhap nam:");
